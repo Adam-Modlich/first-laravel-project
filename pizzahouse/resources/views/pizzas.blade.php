@@ -6,13 +6,7 @@
         <div class="title m-b-md">
             Pizza List
         </div>
-        {{-- <p>{{ $type }} - {{ $base }} - {{ $price }}</p> --}}
-        {{-- @for ($i = 0; $i < 5; $i++)
-            <p>the value of i is {{ $i }}</p>
-        @endfor --}}
-        {{-- @for ($i = 0; $i < count($pizzas); $i++)
-            <p>{{ $pizzas[$i]['type'] }} - {{ $pizzas[$i]['base']}}</p>
-        @endfor --}}
+        <p>{{ $name }} - {{ $age }}</p>
 
         @foreach ($pizzas as $pizza)
             <div>
